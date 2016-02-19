@@ -1,0 +1,29 @@
+section.module.parallax {
+	height: 500px;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+section.module.parallax h1{
+	color: white;
+	font-weight: 10;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 60px;
+	line-height: 500px;
+}
+
+section.module.parallax-1 {
+	background-image: url("./Images/Eiffel_Tower_1.jpg");
+}
+section.module.parallax-2 {
+	background-image: url("./Images/Louvre_2.jpg");
+}
+section.module.parallax-3 {
+	background-image: url("./Images/Love_Lock_Bridge_2.jpg");
+}
+section.module.content {
+	padding:60px 0;
+}
