@@ -15,6 +15,19 @@ section.module.parallax h1{
 	line-height: 500px;
 }
 
+.fade {
+    height: 0;
+    padding: 0;
+    margin: 0;
+    -webkit-transition:height .15s linear;
+    transition:height .15s linear;
+}
+.fade.in {
+    height: auto;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
 section.module.parallax-1 {
 	background-image: url("./Images/Eiffel_Tower_1.jpg");
 }
@@ -23,6 +36,7 @@ section.module.parallax-2 {
 }
 section.module.parallax-3 {
 	background-image: url("./Images/Love_Lock_Bridge_2.jpg");
+	background-position: 50% 50%
 }
 section.module.content {
 	padding:60px 0;
