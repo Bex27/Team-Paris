@@ -23,9 +23,7 @@ section.module.parallax h1{
 .alert-info {
   margin-bottom:0;
   margin-top: 50px;
-  
 }
-
 
 section.module.parallax-1 {
 	background-image: url("./Images/Eiffel_Tower_1.jpg");
@@ -37,8 +35,16 @@ section.module.parallax-3 {
 	background-image: url("./Images/Love_Lock_Bridge_2.jpg");
 	background-position: 50% 50%
 }
+section.module.parallax-4 {
+	background-image: url("./Images/IMG_5488.JPG");
+}
 section.module.content {
 	padding:60px 0;
+	text-align: center;
+}
+
+.title_container h1{
+	padding-bottom:30px;
 }
 
 img.feedback {
@@ -50,4 +56,24 @@ img.feedback {
 	right:0px;
 	top:50%;
 
+}
+
+.dropdown-menu {
+	padding:10px;
+}
+
+.dropdown-toggle {
+	margin: 10px;
+}
+
+.go {
+	margin:10px;
+}
+
+.survival-guide-heading{
+	margin-bottom: 60px;
+}
+
+blockquote{
+	text-align:center;
 }
