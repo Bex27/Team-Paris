@@ -108,3 +108,29 @@ h1 {
     display:inline-block;
     padding:10px;
 }
+
+/* This section is for the script on looking at the arrondissement pictures*/
+
+.show-description p {
+	height:90px;
+	opacity:1;
+}
+
+.map {
+  background: black;
+  color:white;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 45px;
+  width:280px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s
+}
