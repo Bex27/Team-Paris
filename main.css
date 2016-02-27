@@ -3,6 +3,19 @@ body {
 	padding:0px 0px 0px 0px;
 }
 
+.navbar{
+	position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+}
+
+.img-arron {
+	height:200px;
+	width:280px;
+}
+
 section.module.parallax {
 	height: 500px;
 	background-attachment: fixed;
@@ -29,14 +42,14 @@ section.module.parallax-1 {
 	background-image: url("./Images/Eiffel_Tower_1.jpg");
 }
 section.module.parallax-2 {
-	background-image: url("./Images/IMG_5476.JPG");
+	background-image: url("./Images/IMG_5488.JPG");
 }
 section.module.parallax-3 {
 	background-image: url("./Images/Love_Lock_Bridge_2.jpg");
 	background-position: 50% 50%
 }
 section.module.parallax-4 {
-	background-image: url("./Images/IMG_5488.JPG");
+	background-image: url("./Images/Louvre_2.jpg");
 }
 section.module.content {
 	padding:60px 0;
@@ -70,10 +83,28 @@ img.feedback {
 	margin:10px;
 }
 
-.survival-guide-heading{
-	margin-bottom: 60px;
-}
-
 blockquote{
 	text-align:center;
+}
+
+h1 {
+	height: 20px;
+	color:black;
+	margin-bottom:60px;
+}
+
+.nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
 }
