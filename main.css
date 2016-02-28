@@ -3,6 +3,19 @@ body {
 	padding:0px 0px 0px 0px;
 }
 
+.navbar{
+	position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+}
+
+.img-arron {
+	height:200px;
+	width:280px;
+}
+
 section.module.parallax {
 	height: 500px;
 	background-attachment: fixed;
@@ -20,31 +33,31 @@ section.module.parallax h1{
 	line-height: 500px;
 }
 
-.fade {
-    height: 0;
-    padding: 0;
-    margin: 0;
-    -webkit-transition:height .15s linear;
-    transition:height .15s linear;
-}
-.fade.in {
-    height: auto;
-    padding: 15px;
-    margin-bottom: 20px;
+.alert-info {
+  margin-bottom:0;
+  margin-top: 50px;
 }
 
 section.module.parallax-1 {
 	background-image: url("./Images/Eiffel_Tower_1.jpg");
 }
 section.module.parallax-2 {
-	background-image: url("./Images/IMG_5476.JPG");
+	background-image: url("./Images/IMG_5488.JPG");
 }
 section.module.parallax-3 {
 	background-image: url("./Images/Love_Lock_Bridge_2.jpg");
 	background-position: 50% 50%
 }
+section.module.parallax-4 {
+	background-image: url("./Images/Louvre_2.jpg");
+}
 section.module.content {
 	padding:60px 0;
+	text-align: center;
+}
+
+.title_container h1{
+	padding-bottom:30px;
 }
 
 img.feedback {
@@ -56,4 +69,108 @@ img.feedback {
 	right:0px;
 	top:50%;
 
+}
+
+.dropdown-menu {
+	padding:10px;
+}
+
+.dropdown-toggle {
+	margin: 10px;
+}
+
+.go {
+	margin:10px;
+}
+
+blockquote{
+	text-align:center;
+}
+
+h1 {
+	height: 20px;
+	color:black;
+	margin-bottom:60px;
+}
+
+.nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+
+/* This section is for the script on looking at the arrondissement pictures*/
+
+.show-description p {
+	height:90px;
+	opacity:1;
+}
+
+.map {
+  background: black;
+  color:white;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 45px;
+  width:280px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s
+}
+
+.text-center {
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+.carousel-inner {
+	height: 600px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #f5f5f5;
+}
+
+.text-muted {
+    margin: 20px 0;
+    color:#777;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer li{
+	display:inline;
+}
+
+.footer p{
+	float:right;
+}
+
+.footer ul{
+	float:right;
+	margin-top: 17px;
 }
