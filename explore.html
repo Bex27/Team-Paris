@@ -46,4 +46,123 @@
     </div>
   </section>
 
+    <!--Arrondissement Guide-->
+
+  <section class="module content">
+    <div class="paris-arrondissements">
+      <div class="container">
+        <h1 class="arrondissements-heading">Paris Arrondissements</h1>
+        <div class='row text-center'>
+          <div class='col-md-3'>
+            <img class="img-arron" src="./Images/1st.jpg">
+            <p class="map">1st Arrondissement<br /><small>Louvre</small></p>
+          </div>
+          <div class='col-md-3'>
+            <img class="img-arron" src="./Images/2nd.jpg">
+            <p class="map">2nd Arrondissement<br /><small>Rue Montorgueil Neighbourhood</small></p>
+          </div>
+          <div class='col-md-3'>
+            <img class="img-arron" src="./Images/3rd.jpg">
+            <p class="map">3rd Arrondissement<br /><small>The Marais Neighbourhood</small></p>
+          </div>
+          <div class='col-md-3'>
+            <img class="img-arron" src="./Images/4th.jpg">
+            <p class="map">4th Arrondissement<br /><small>Beauborg Neighbourhood</small></p>
+          </div> 
+        </div>
+        <div class='row text-center'>
+          <div class='col-md-3'>
+            <img class="img-arron" src="./Images/5th.jpg">
+            <p class="map">5th Arrondissement<br /><small>The Pantheon</small></p>
+          </div>
+          <div class='col-md-3'>
+            <img class="img-arron" src="./Images/6th.jpg">
+            <p class="map">6th Arrondissement<br /><small>Luxembourg Gardens</small></p>
+          </div>
+          <div class='col-md-3'>
+            <img class="img-arron" src="./Images/7th.jpg">
+            <p class="map">7th Arrondissement<br /><small>Eiffel Tower</small></p>
+          </div>
+          <div class='col-md-3'>
+            <img class="img-arron" src="./Images/8th.jpg">
+            <p class="map">8th Arrondissement<br /><small>Champs-Elysees</small></p>
+          </div> 
+        </div>
+        <div class='row text-center'>
+          <div class='col-md-3'>
+            <img class="img-arron" src="./Images/9th.jpg">
+            <p class="map">9th Arrondissement<br /><small>Opera Garnier</small></p>
+          </div>
+          <div class='col-md-3'>
+            <img class="img-arron" src="./Images/10th.jpg">
+            <p class="map">10th Arrondissement<br /><small>Canal Saint-Martin</small></p>
+          </div>
+          <div class='col-md-3'>
+            <img class="img-arron" src="./Images/11th.jpg">
+            <p class="map">11th Arrondissement<br /><small>Place de la Bastille</small></p>
+          </div>
+          <div class='col-md-3'>
+            <img class="img-arron" src="./Images/12th.jpg">
+            <p class="map">12th Arrondissement<br /><small>Gare de Lyon</small></p>
+          </div> 
+        </div>
+        <div class='row text-center'>
+          <div class='col-md-3'>
+            <img class="img-arron" src="./Images/13th.jpg">
+            <p class="map">13th Arrondissement<br /><small>Bibliotheque Nationale</small></p>
+          </div>
+          <div class='col-md-3'>
+            <img class="img-arron" src="./Images/14th.jpg">
+            <p class="map">14th Arrondissement<br /><small>Montparnasse Tower and Neighbourhood</small></p>
+          </div>
+          <div class='col-md-3'>
+            <img class="img-arron" src="./Images/15th.jpg">
+            <p class="map">15th Arrondissement<br /><small>Porte de Versailles</small></p>
+          </div>
+          <div class='col-md-3'>
+            <img class="img-arron" src="./Images/16th.jpg">
+            <p class="map">16th Arrondissement<br /><small>Passy Neighbourhood</small></p>
+          </div> 
+        </div>
+        <div class='row text-center'>
+          <div class='col-md-3'>
+            <img class="img-arron" src="./Images/17th.jpg">
+            <p class="map">17th Arrondissement<br /><small>Barignolles Neghbourhood</small></p>
+          </div>
+          <div class='col-md-3'>
+            <img class="img-arron" src="./Images/18th.jpg">
+            <p class="map">18th Arrondissement<br /><small>Montmertre Neighbourhood</small></p>
+          </div>
+          <div class='col-md-3'>
+            <img class="img-arron" src="./Images/19th.jpg">
+            <p class="map">19th Arrondissement<br /><small>Canal de l'Ourq</small></p>
+          </div>
+          <div class='col-md-3'>
+            <img class="img-arron" src="./Images/20th.jpg">
+            <p class="map">20th Arrondissement<br /><small>Menilmontant</small></p>
+          </div> 
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    $('div.col-md-3').on('mouseenter', function() {
+      $(this).toggleClass('show-description');
+  });
+  </script>
+
+  <script>
+    $('div.col-md-3').on('mouseleave', function() {
+      $(this).toggleClass('show-description');
+    });
+  </script>
+
+<!--If we want it to pop up with a click event instead
+<script>
+  $('div.col-md-3').on('click', function() {
+      $(this).toggleClass('show-description');
+  });
+</script>
+-->
 </body>
