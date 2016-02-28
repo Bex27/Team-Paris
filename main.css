@@ -134,3 +134,8 @@ h1 {
   -webkit-transition: height .5s;
   -moz-transition: height .5s
 }
+
+.text-center {
+	margin-bottom:10px;
+	margin-top:10px;
+}
