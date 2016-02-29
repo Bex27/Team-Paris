@@ -176,10 +176,22 @@ h1 {
 }
 
 .contribute-form {
-	margin-top:20px;
-	margin-bottom:20px;
+	margin-top:30px;
+	margin-bottom:30px;
 }
 
 #carousel-example-generic {
 	margin-bottom:50px;
 }
+
+.contribute-form h2 {
+	padding:10px 10px 10px 10px;
+}
+
+.contribute-form p {
+	padding:10px 10px 10px 10px;
+}
+.dd {
+	margin:10px 10px 10px 10px;
+}
+
